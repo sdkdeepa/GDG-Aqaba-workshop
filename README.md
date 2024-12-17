@@ -12,6 +12,7 @@ body {
   height: 100%;
   font-size: 16px;
 }
+
 h1 {
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   flex-grow: 1;
@@ -95,6 +96,28 @@ img {
   border-radius: 10px;
 }
 
+#message-input {
+  flex-grow: 1;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  grid-column: 2;
+  margin-right: 10px;
+  font-size: 14px;
+  color:rgb(31, 31, 31)
+}
+#send-button {
+  padding: 30px 50px;
+  background-color: rgb(14, 179, 141);
+  color: white;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .responses {
   padding-left: 10px;
   padding-top: 10px;
@@ -140,29 +163,6 @@ img {
 .loading-indicator {
   text-align: center;
   font-weight: bold;
-}
-
-#message-input {
-  flex-grow: 1;
-  padding: 30px;
-  border: 1px solid #ccc;
-  border-radius: 45px;
-  grid-column: 2;
-  margin-right: 10px;
-  font-size: 14px;
-  color:rgb(31, 31, 31)
-}
-#send-button {
-  padding: 30px 50px;
-  background-color: rgb(14, 179, 141);
-  color: white;
-  border: none;
-  border-radius: 45px;
-  display: flex;
-  font-size: 18px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
 }
 
 ```
