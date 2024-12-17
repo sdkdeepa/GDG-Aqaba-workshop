@@ -12,9 +12,6 @@ body {
   height: 100%;
   font-size: 16px;
 }
-header{
-  height: 5%;
-}
 h1 {
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   flex-grow: 1;
