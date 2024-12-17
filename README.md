@@ -12,14 +12,17 @@ body {
   height: 100%;
   font-size: 16px;
 }
-
+header{
+  height: 5%;
+}
 h1 {
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   flex-grow: 1;
   margin: auto;
   text-align: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 32px;
+  font-weight: 500;
   text-align: center;
   color: rgb(217, 41, 100);
 }
@@ -38,7 +41,7 @@ img {
   flex-grow: 1;
   background-color: #f0f0f0;
   padding: 20px;
-  height: 95vh;
+  height: 75vh;
   border-radius: 15px;
 }
 .chat-header {
@@ -86,28 +89,15 @@ img {
   height: 10px;
   padding-bottom: 50px;
 }
-#message-input {
-  flex-grow: 1;
-  padding: 30px;
-  border: 1px solid #ccc;
-  border-radius: 45px;
-  grid-column: 2;
-  margin-right: 10px;
-  font-size: 14px;
-  color:rgb(31, 31, 31)
+.new-gemini {
+  padding: 15px 20px;
+  background-color:rgb(222, 227, 233);
+  color: rgb(27, 28, 29);
+  height: 48px;
+  border-style: none;
+  border-radius: 10px;
 }
-#send-button {
-  padding: 30px 50px;
-  background-color: rgb(14, 179, 141);
-  color: white;
-  border: none;
-  border-radius: 45px;
-  display: flex;
-  font-size: 18px;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
+
 .responses {
   padding-left: 10px;
   padding-top: 10px;
@@ -153,6 +143,29 @@ img {
 .loading-indicator {
   text-align: center;
   font-weight: bold;
+}
+
+#message-input {
+  flex-grow: 1;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 45px;
+  grid-column: 2;
+  margin-right: 10px;
+  font-size: 14px;
+  color:rgb(31, 31, 31)
+}
+#send-button {
+  padding: 30px 50px;
+  background-color: rgb(14, 179, 141);
+  color: white;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 ```
