@@ -29,6 +29,10 @@ img {
   height: auto;
 }
 
+footer {
+  height: 10px;
+}
+
 .chat-input {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -37,15 +41,16 @@ img {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background-color: #f0f0f0;
+  // background-color: #f0f0f0;
   padding: 20px;
-  height: 75vh;
+  height: 80vh;
   border-radius: 15px;
 }
 .chat-header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 .logo-container {
   margin-right: 20px;
@@ -59,7 +64,6 @@ img {
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
   color: #333;
-  background-color: #0bafe5;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -84,16 +88,20 @@ img {
 }
 .chat-input {
   display: flex;
-  height: 10px;
-  padding-bottom: 50px;
+  height: 2vh;
+  padding-bottom: 25px;
+  color: rgb(68, 71, 70);
 }
 .new-gemini {
   padding: 15px 20px;
-  background-color:rgb(222, 227, 233);
+  background-color: rgb(222, 227, 233);
   color: rgb(27, 28, 29);
-  height: 48px;
+  height: 60px;
   border-style: none;
   border-radius: 10px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
 }
 
 #message-input {
@@ -104,7 +112,7 @@ img {
   grid-column: 2;
   margin-right: 10px;
   font-size: 14px;
-  color:rgb(31, 31, 31)
+  color: #757575;
 }
 #send-button {
   padding: 30px 50px;
@@ -133,16 +141,16 @@ img {
   margin-bottom: 10px;
 }
 
-.question{
-  color: rgb(17, 17, 17);
-  background: #fdfdfff8;
+.question {
+  color: rgb(67, 65, 65);
+  background: #ffffff;
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
 
 .answer {
-  color: rgb(13, 13, 13);
-  background: rgb(115, 191, 249);
+  color: rgb(31, 31, 31);
+  background: #f1f4f8;
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
 }
@@ -150,19 +158,19 @@ img {
   background-color: grey;
   cursor: not-allowed;
 }
-.warning {
-  margin-top: 5px;
+.disclaimer {
+  position: sticky;
+  margin: -5px;
   font-family: "Google Sans", "Helvetica Neue", sans-serif;
   text-align: center;
-  font-weight:400;
-  font-size: .75rem;
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 1rem;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   color: rgb(87, 91, 95);
 }
 .loading-indicator {
   text-align: center;
   font-weight: bold;
 }
-
 ```
